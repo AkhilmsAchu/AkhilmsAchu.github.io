@@ -4,6 +4,46 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+ .skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  font-size: 20px;
+    margin-bottom: 10px;
+        margin-top: 10px;
+    font-weight: 500;
+
+
+  text-transform: uppercase;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  color: #fefefe;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #1a1a1a;
+  border-radius: 2px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #ffbd39;
+      border-radius: 2px;
+}
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

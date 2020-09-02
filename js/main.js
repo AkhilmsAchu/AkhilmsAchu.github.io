@@ -1,3 +1,13 @@
+  // Skills section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
+
+
  AOS.init({
  	duration: 800,
  	easing: 'slide'
