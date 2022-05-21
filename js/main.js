@@ -61,8 +61,12 @@
 
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
+				$(this).find('span').addClass('oi-menu');
+				$(this).find('span').removeClass('oi-ellipses');
 			} else {
 				$(this).addClass('active');	
+				$(this).find('span').addClass('oi-ellipses');
+				$(this).find('span').removeClass('oi-menu');
 			}
 
 			
@@ -96,7 +100,7 @@
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:true,
-	    autoplay: true,
+	    autoplay: false,
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
