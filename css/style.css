@@ -5,6 +5,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+-ms-touch-action: auto;
+    touch-action: auto;
+}
+
 .custombgimg{
  background-image:url(../images/bg_1.png); 
 }
@@ -38,8 +44,7 @@
 
   text-transform: uppercase;
   display: block;
-  font-family: "Poppins", sans-serif;
-  color: #fefefe;
+  color: #0d2f3e;
 }
 
 .skills .progress .skill .val {
@@ -48,7 +53,7 @@
 }
 
 .skills .progress-bar-wrap {
-  background: #1a1a1a;
+  background: #fe645f;
   border-radius: 2px;
 }
 
@@ -8215,7 +8220,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: #fe645f;
+  color: #0d2f3e;
   font-weight: 400; }
 
 .text-primary {
