@@ -64,7 +64,7 @@
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Akhil MS</span></h1>
-			            <h2 class="mb-4 animated-slo  hinge ">A Software Developer</h2>
+			            <h2 id="swbanner" class="mb-4 animated-slo">A Software Developer</h2>
 		            </div>
 		          </div>
 	        	</div>
@@ -107,7 +107,7 @@
 		          	<h1 class="big">About</h1>
 		            <h2 class="mb-4">About Me</h2>
 		            <p>I live In A Small State Called "GODS OWN COUNTRY".</p>
-		            <ul class="about-info mt-4 px-md-0 px-2">
+		            <ul class="about-info mt-4 px-md-0 px-2 text-center">
 		            	<li class="d-flex"><span>Name:</span> <span>Akhil MS</span></li>
 		            	<li class="d-flex"><span>Date of birth:</span> <span>August, 1997</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>Kerala INDIA</span></li>
@@ -346,6 +346,12 @@
   <script src="js/scrollax.min.js"></script>
   <script src="vendor/counterup/counterup.min.js"></script>
   <script src="js/main.js"></script>
-    
+  <script type="text/javascript">
+     $( document ).ready(function() {
+            setTimeout(function(){
+          $('#swbanner').addClass('hinge');
+    }, 2000);
+    });
+  </script>
   </body>
 </html>
