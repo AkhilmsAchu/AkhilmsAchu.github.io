@@ -11,6 +11,12 @@
     touch-action: auto;
 }
 
+@media (max-width: 767.98px) 
+{
+  .heading-section h1{
+    display: none;
+  }
+}
 .nav-link span, .heading-section h2{
  transition: 0.5s all ease-in-out;
 }
@@ -9139,7 +9145,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 3em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
