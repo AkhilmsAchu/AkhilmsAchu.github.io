@@ -9461,8 +9461,13 @@ h1, h2, h3, h4, h5,
   background: #1a1a1a;
   overflow: visible; }
 
+.progress-bar-animated:hover {
+    -webkit-animation: progress-bar-stripes 0.1s linear infinite;
+    animation: progress-bar-stripes 0.1s linear infinite;
+}
+
 .progress-bar {
-  background: #5b7f7a;
+  transition-duration: 10s !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;

@@ -416,7 +416,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.tada {
+.tada:hover {
   -webkit-animation-name: tada;
   animation-name: tada;
 }
@@ -586,7 +586,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.jello {
+.jello:hover {
   -webkit-animation-name: jello;
   animation-name: jello;
   -webkit-transform-origin: center;
